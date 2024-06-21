@@ -1,0 +1,131 @@
+{
+    "Navbar": {
+        "About": "Haqida",
+        "Projects":"Loyihalar",
+        "Career":"Karyera",
+        "News":"Yangiliklar",
+        "Contacts": "Aloqa", 
+        "p": "Raqamingizni qoldiring, biz sizga qo'ng'iroq qilamiz.",
+        "info" : "E'tibor bering, savdo bo'limining ish vaqti 9:00 dan 21:00 gacha",
+        "select" : {
+            "op1" : "Bo`lim",
+            "op2": "Savdo Bo`limi",
+            "op3" :"Kadrlar Bo`limi",
+            "op4" : "Moliya Bo`limi",
+            "op5" : "Buxgalteriya",
+            "op6" : "Xarid Bo`limi",
+            "op7" : "Murojaatlar Bo`limi"
+        }
+    },
+    "Home": {
+        "head1": "DISCOVER",
+        "head2": "INVEST",
+        "p": "Har jihatda mukammallik",
+         "btn1" : "Loyihalar",
+        "btn2" : "Aloqalar"
+    },
+    "About": {
+        "head1" : "DISCOVER INVEST kompaniyasi haqida",
+        "info" : "Kompaniyamiz nafaqat loyihalarni takomillashtirish, balki yangi imkoniyatlar uchun ham o'z eshiklarini ochadi. Davlat miqyosidagi imoratlarni barpo qilish bilan birga, istiqbol uchun ham asos solishda davom etamiz Biz atrof-muhit haqida qayg'uramiz: kompaniya binolar va infratuzilma poydevorlarini barpo etishdan tashqari, ulardan foydalanish bilan bog'liq ekologik jihatlar uchun hamma ma’suliyatni o'z zimmasiga oladi.",
+        "col-1" : "Xodimlar soni",
+        "col-2": "Loyihalar",
+        "col-3" : "Turar Joy Majmualar",
+        "col-4" : "yildan buyon bozorda ",
+        "col-5" : "Maxsus texnikalar",
+        "col-6" : "Haqida",
+        "col-7" : "Shifoxonalar"
+    },
+    "Advantages" : {
+        "head1" : "Bizning",
+        "head2" : "afzalliklarimiz",
+        "h1":"Bizning jamoa",
+        "info1":"Kompaniya tajribali xodimlarni tanlov asosida o'z safiga qabul qiladi.",
+        "info2":"Veb-saytimiz orqali biz amalga oshirgan ulkan ishlarni ko'rib, mijozlarning ishonchini zabt qilganimizga amin bo'lasiz.",
+        "h2":"Mijozlarning ijobiy yondashuvi",
+        "h3":"Barcha ishlar kafolat ostida",
+        "info3": "Biz amalga oshirayotgan mashaqqatli ishimizga puxta yondashamiz va kompaniyamizga bo’lgan ishonchingizni qadrlaymiz."
+    },
+    "Team" : {
+        "head1":"Bizning",
+        "head2": "Jamoa",
+        "t1": "Kuziyev Jahongir Bahodirovich",
+        "p1":"Qurilishda uchastka rahbari",
+        "t2": "Norbekov Shavkat Bo`riboy o`g`li",
+        "p2":"Loyiha menejeri",
+        "t3": "Artiqbayev Saxobiddin Doniyor o`g`li",
+        "p3": "Loyiha menejeri",
+        "t4": "Boltayev Obidjon Uchqin o`g`li",
+        "p4" : "Qurilishda uchastka rahbari",
+        "t5" : "Xusanov Akromjon Turaxon o`g`li",
+        "p5" : "Loyiha menejeri"
+    },
+    "Projects" : {
+        "head1" : "Bizning",
+        "head2" : "Loyihalar",
+        "p1": "Magic City",
+        "in1" : "Ijtimoiy ahamiyatga ega keng ko'lamli loyiha. Toshkent shahrining diqqatga sazovor va yangi madaniy-kongilochar joylaridan biri hisoblanadi.",
+        "p2" : "Boulevard",
+        "in2": "Aholi qulayligini ta’minlash maqsadida bunyod qilingan ko’p vazifali turar joy mavzesi",
+        "p3" : "Gardens Residence",
+        "in3": "Shaharning yuragida barpo etilgan turar joy mavzesi.",
+        "p4":"Fonon",
+        "in4": "Fonon - 2020-yilda Italiya standartlari asosida qurilgan zargarlik buyumlari ishlab chiqaruvchi zavod. Fonon Markaziy Osiyoda, Yevropa va sharq uslubida qimmatbaho metallardan zargarlik buyumlarini ishlab chiqaruvchi yagona yirik korxona hisoblanadi.",
+        "p5" : "Invento",
+        "in5": "Tashkent City biznes markazida joylashgan xalqaro maktab va bolalar bog`chasi.",
+        "p6": "Prezident Maktab",
+        "in6": "Bu xalqaro standartlarga javob beradigan bilim beruvchi ta’lim maskanidir",
+        "btn": "Barcha Loyihalar"
+    },
+    "News" : {
+        "head1" : "Kompaniya",
+        "head2" : "Yangiliklari",
+        "p1" : "Qurilish loyihasining mutaxassisi deb kimni atash mumkin?",
+        "p2" : "Discover Invest kompaniyasi hammani yangi 2023-yil bilan qutlaydi!",
+        "p3" : "O'ZBEKISTON RESPUBLIKASI KONSTITUTSIYASI QABUL QILINGAN KUN",
+        "p4" : "Discover Invest kompaniyasining keng ko'lamli qurilish obyektlari",
+        "btn": "Barcha  Yangiliklar"
+    },
+    "Contact" : {
+        "head" : "Aloqa",
+        "h1" : "Manzil",
+        "p1": "O`zbekiston Respublikasi, Toshkent shahri, Alisher Navoiy nomidagi Milliy Bog` sayilgohi",
+        "h2" : "Telefon",
+        "h3" : "Ish Vaqti",
+        "p3" : "09:00 - 18:00 dushanba-shanba",
+        "for1" : "Telefon Raqam",
+        "for2" : "Ism"
+    },
+    "Footer" : {
+        "p" : "Discover Invest. Barcha huquqlar himoyalangan."
+    },
+    "About_main": {
+        "head1" : "KOMPANIYA",
+        "head2": "HAQIDA",
+        "in1": "Kompaniyamiz nafaqat loyihalarni takomillashtirish, balki yangi imkoniyatlar uchun ham o'z eshiklarini ochadi. Davlat miqyosidagi imoratlarni barpo qilish bilan birga, istiqbol uchun ham asos solishda davom etamiz",
+        "btn1": "Taqdimotni Yuklab Olish",
+        "p1" : "Kompaniyamiz",
+        "p2" : "Haqida",
+        "inf1" : "Kompaniyamiz nafaqat loyihalarni takomillashtiradi, balki yangi imkoniyatlar uchun ham o'z eshiklarini ochadi. Davlat miqyosidagi imoratlarni barpo qilish bilan birga, istiqbol uchun ham asos solishda davom etamiz. Atrof-muhit haqida qayg'urish - bizni yanada birlashtirib kelmoqda. Kompaniya binolar va infratuzilma poydevorlarini bunyod qilish, ulardan foydalanish bilan bog'liq ekologik jihatlar uchun barcha ma'suliyatni o'z zimmasiga oladi kompaniya binolar va infratuzilma poydevorlarini barpo etishdan tashqari, ulardan foydalanish bilan bog'liq ekologik jihatlar uchun hamma ma’suliyatni o'z zimmasiga oladi.",
+        "btn2" : "Loyihalar",
+        "h1" : "Bizning vazifamiz",
+        "pa1": "Kompaniyamiz O‘zbekistondagi qurilishda ilg‘or texnologiyalarni joriy qilib, zamonaviy dizayn yechimlarini yaratishni eng oliy maqsad deb biladi. Kutilganidek, birinchi darajali mutaxassislarga tayanib, biz yillar davomida mijozlarimiz talablarini e’tiborga olgan holda arzon turar joy va sanoat binolarini barpo etamiz.",
+        "h2" : "Bizning maqsadimiz",
+        "pa2" : "Markaziy Osiyodagi quyidagi afzalliklarni taqdim etadigan, sermahsul va puxta rejalashtirilgan loyihalarni o’z ichiga qamrab oladi: Jamiyat - mehnatga yuqori talablarni qo'yish orqali insonlarning turmush tarzini oshirish. Mijozlar - birgalikdagi faoliyatdan bahramand bo'lish, ochiq va uzoq muddatli munosabatlarni o'rnatish. Xodimlar - shaxs sifatida doimiy, shuningdek professional yuksalish",
+        "h3" : "Bizning qadriyatlarimiz",
+        "pa3" : "2008-yilda 'Discover Invest' MChJ tashkil topganidan beri kompaniya ishga faqat tajribali hodimlarni jalb qildi. Mutaxassislarimiz ilg'or texnologiyalardan foydalanishdan tashqari, biznesga innovatsion yondashuvdan foydalanadi.O'z an’analarimizga sodiq qolgan holda, Ish vaqti va joyidan qat'iy nazar, xodimlar va xavfsizlik, doimiy takomillashtirish va mijozlarimizning ishonchi – kompaniyamizning ustuvor vazifasi bo’lib qoladi."
+    },
+    "Projects_main" : {
+        "info" : "Kompaniyamiz nafaqat loyihalarni takomillashtirish, balki yangi imkoniyatlar uchun ham o'z eshiklarini ochadi. Davlat miqyosidagi imoratlarni barpo qilish bilan birga, istiqbol uchun ham asos solishda davom etamiz"
+    },
+    "News_main" : {
+        "info" : "Kompaniyamiz nafaqat loyihalarni takomillashtirish, balki yangi imkoniyatlar uchun ham o'z eshiklarini ochadi. Davlat miqyosidagi imoratlarni barpo qilish bilan birga, istiqbol uchun ham asos solishda davom etamiz"
+    },
+    "Contacts" : {
+        "head" : "ALOQA",
+        "info" : "Havolani to’ldirib, telefon raqamingizni qoldiring va biz yaqin vaqt ichida aloqaga chiqamiz",
+        "p1": "Sizga qanday yordam",
+        "p2" :"bera olamiz?",
+        "p3" :"Savolingiz",
+        "btn" : "Qayta aloqa"
+    }
+}

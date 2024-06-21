@@ -1,0 +1,131 @@
+{
+    "Navbar": {
+        "About": "About",
+        "Projects":"Projects",
+        "Career":"Career",
+        "News":"News",
+        "Contacts": "Contacts", 
+        "p": "Leave your number and we will call you back.",
+        "info" : "Please note that the opening hours of the sales department from to 18:00 to 21:00",
+        "select" : {
+            "op1" : "Department",
+            "op2": "Sales Department",
+            "op3" :"Human Resources Department",
+            "op4" : "Financial Department",
+            "op5" : "Accounting",
+            "op6" : "Purchasing Department",
+            "op7" : "Office"
+        }
+    },
+    "Home": {
+        "head1": "DISCOVER",
+        "head2": "INVEST",
+        "p": "Perfection in everything",
+         "btn1" : "Projects",
+        "btn2" : "Contacts"
+    },
+    "About": {
+        "head1" : "About DISCOVER INVEST",
+        "info" : "We don`t just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment: the company takes full responsibility for the environmental aspects related to the construction and operation of buildings and infrastructure.",
+        "col-1" : "The number of employees",
+        "col-2": "Projects",
+        "col-3" : "Residential complexes",
+        "col-4" : "years on marketplace",
+        "col-5" : "Special techniques recuperated",
+        "col-6" : "About",
+        "col-7" : "Hospitals"
+    },
+    "Advantages" : {
+        "head1" : "Our",
+        "head2" : "advantages",
+        "h1":"Our Team",
+        "info1":"The company recruits experienced employees on a competitive basis",
+        "info2":"By looking at the great work we have done through our website, you will be sure that we have earned the trust of our customers",
+        "h2":"Positive customer approach",
+        "h3":"All work guaranteed",
+        "info3": "We perform our mission carefully and appreciate your belief in our company All mistakes were clearly corrected"
+    },
+    "Team" : {
+        "head1":"Our",
+        "head2": "Team",
+        "t1": "Kuziyev Jahongir Bahodirovich",
+        "p1":"Constructor site supervisor",
+        "t2": "Norbekov Shavkat Bo`riboy o`g`li",
+        "p2":"Project Manager",
+        "t3": "Artiqbayev Saxobiddin Doniyor o`g`li",
+        "p3": "Project Manager",
+        "t4": "Boltayev Obidjon Uchqin o`g`li",
+        "p4" : "Constructor supervisor",
+        "t5" : "Xusanov Akromjon Turaxon o`g`li",
+        "p5" : "Project Manager"
+    },
+    "Projects" : {
+        "head1" : "Our",
+        "head2" : "Projects",
+        "p1": "Magic City",
+        "in1" : "Magic city is a large socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attraction",
+        "p2" : "Boulevard",
+        "in2": "A multifunctional residential complex created to provide comfort to the residents of Uzbekistan.",
+        "p3" : "Gardens Residence",
+        "in3": "A grandiose residential quarter in the heart of the capital.",
+        "p4":"Fonon",
+        "in4": "Fonon is a jewelry factory in Uzbekistan built on the basis of Italian ones in 2020. Fonon is the only large enterprise in Central Asia producing jewelry made of precious metals in European and Oriental style.",
+        "p5" : "Invento",
+        "in5": "International kindergarten and school located in the international business center Tashkent City",
+        "p6": "Prezidental Schools",
+        "in6": "The Presidential School is a specialized public educational institution whose activities are aimed at identifying and educating gifted children to train highly qualified specialists.",
+        "btn": "All Projects"
+    },
+    "News" : {
+        "head1" : "Company",
+        "head2" : "News",
+        "p1" : "Who is the project manager of construction",
+        "p2" : "Discover Invest congratulates everyone on a coming Happy New 2023!",
+        "p3" : "The Day when the constitution of Republic of Uzbekistan was adopted",
+        "p4" : "We continue to introduce you to Discover Invest`s wide range of construction properties",
+        "btn": "All News"
+    },
+    "Contact" : {
+        "head" : "Contact",
+        "h1" : "Address",
+        "p1": "Uzbekistan, Tashkent, National Park of Uzbekistan named after Alisher Navoi",
+        "h2" : "Phone",
+        "h3" : "Work",
+        "p3" : "09:00 - 18:00 Mon-Sat",
+        "for1" : "Phone Number",
+        "for2" : "Name"
+    },
+    "Footer" : {
+        "p" : "Discover Invest. All rights reserved"
+    },
+    "About_main": {
+        "head1" : "ABOUT",
+        "head2": "COMPANY",
+        "in1": "We don`t just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment:",
+        "btn1": "Download Presentation",
+        "p1" : "About",
+        "p2" : "Company",
+        "inf1" : "We don`t just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment: the company takes full responsibility for the environmental aspects related to the construction and operation of buildings and infrastructure.",
+        "btn2" : "Projects",
+        "h1" : "Our Mission",
+        "pa1": "Our mission We introduce the most advanced technologies in construction in Uzbekistan and create modern design solutions. Relying on first-class workers, we build affordable housing and industrial buildings for many years.",
+        "h2" : "Our Vision",
+        "pa2" : "Creation of the best project company in Central Asia, which provides an opportunity to: - Society - to improve the standard of living of people by setting high standards in work. - Clients - to enjoy joint activities, to build long-term and open relationships. - Employees - constant growth",
+        "h3" : "Our Values",
+        "pa3" : "Our values Since the founding (LLC) `Discover Invest` in 2008, we have been working only with professionals. Our specialists use advanced technologies and an innovative approach to business.Regardless of the time and place of operation, we remain committed to our values: staff and safety, continuous improvement and the trust of our customers."
+    },
+    "Projects_main" : {
+        "info" : "We don`t just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment:"
+    },
+    "News_main" : {
+        "info" : "We don`t just create projects, we create new opportunities. By building state-scale facilities, we are building the future. We care about the environment:"
+    },
+    "Contacts" : {
+        "head" : "CONTACTS",
+        "info" : "Leave your contacts by filling out the current form and we will contact you as soon as possible.",
+        "p1": "How we can",
+        "p2" :"help?",
+        "p3" :"Your Question",
+        "btn" : "Feedback"
+    }
+}

@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+.Projects {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    background-image: url("../public/advantages.png");
+    background-size: cover;
+    background-position: center;
+}
+.Projects__.container .row {
+    margin-block: 50px;
+} 
+.Projects__.container .row .col-lg-6 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.img-container .row .col_.col-lg-6 {
+    position: relative;
+    margin-bottom: 30px;
+    margin-inline: auto;
+}
+.img-container .row .col_.col-lg-6
+
+.img-container .row .col_.col-lg-6 .col2 {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    padding-left: 15px;
+
+}
+.img-container .row .col_.col-lg-6:hover .col2{
+    position: absolute;
+    top: 10px;
+    color: white;
+    padding-left: 15px;
+}
+.img-container .row .col_.col-lg-6:hover img {
+   opacity: 0.7;
+}
+.img-container .row .col_.col-lg-6:hover .col2 h4 {
+    color: #FAB448;
+}
+.img-container .row .col_.col-lg-6 .col2 p {
+    display: none;
+}
+.img-container .row .col_.col-lg-6:hover .col2 p {
+    display: block;
+}
+
+.projects_btn {
+    padding:  10px 20px;
+    background-color:  hsl(36, 95%, 63%);
+    color: white;
+    border: none;
+}
+.projects_btn:hover {
+    background-color: hsl(36, 95%, 75%);
+    transition: all 1s;
+}

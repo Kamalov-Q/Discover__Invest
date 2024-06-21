@@ -1,0 +1,688 @@
+/* >300px and <450 */
+@media (min-width: 300px) and (max-width: 400px) {
+  .Home .container_ {
+    position: absolute;
+    /*    width: 85%; */
+    width: 60%;
+    top: 43vh;
+    left: 20px;
+  }
+  .Home .container_ .row .header {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    line-height: 50px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .Home .container_ .row .btn1 {
+    padding: 15px 30px;
+    background-color: #fab448;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }
+  .Home .container_ .row .btn2 {
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fab448;
+  }
+  .About .container svg {
+    display: none;
+  }
+  .About .container .row .header.col-lg-5 span{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+    margin-block: -40px;
+  }
+  .About .container .row .header.col-lg-5 p {
+    margin-block: 50px;
+  }
+  .About .container .row .col-lg-6 .row .col-lg-4 {
+    width: 33%;
+    margin-inline: 0;
+    height: 150px;
+    border: 1px solid black;
+    padding: 30px;
+  }
+  .About .container .row .col-lg-6 .row .col-lg-4 {
+    padding: 6px;
+  }
+  .About .container .row .col-lg-6 .row .col-lg-4 h1 {
+    font-size: 20px;
+  }
+  .Advantages .container .row .col-lg-6 span {
+    font-size: 2.5rem;
+  }
+  .Team .container .row .col-lg-6 span {
+    font-size: 2.5rem;
+  }
+  .Projects__.container .row .col-lg-6 span {
+    font-size: 2.5rem;
+  }
+  .Company_news__.container .row .col-lg-6 span {
+    font-size: 2.5rem;
+  }
+  .Contact .container {
+    margin-top: 50px;
+  }
+  .Contact .container .row .col-lg-5 span {
+    font-size: 2.5rem;
+  }
+  .Contact .container .row .col-lg-5 .row.mt-5 .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Contact .container .row .col-lg-5 .row .col-lg-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .About_main .containerBg {
+    background-position: center right;
+    background-image: url("../public/bg-main.jpg");
+    width: 100%;
+    height: 100vh;
+  }
+  .About_main .container_ .row .para p {
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  .About_main .containerBg .container_ .row .col-lg-5.header {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 0;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About_main .containerBg .container_ {
+    position: absolute;
+    width: 100%;
+    top: 35vh;
+    left: 0px;
+  }
+  .About_main .container_ .row .btn1 {
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(36, 95%, 63%);
+    color: white;
+    border: none;
+    margin-right: 10px;
+    transition: all 0.5s;
+  }
+  .About_main .container2 .row .col-lg-6 svg {
+    display: none;
+  }
+  .About_main .container2 .row .col-lg-6 span {
+    font-size: 40px;
+  }
+  .About_main .container2 .row .col-lg-5 img {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container3 .row .col-lg-5 img {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .Navbar .icon_phone {
+    background-color: #fab448;
+    position: fixed;
+    padding: 5px;
+    top: 85vh;
+    left: 80vw;
+    z-index: 100;
+  }
+  
+  #root .Contacts_main .containerBackG {
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #root .Contacts_main .containerBackG .container_ {
+    position: absolute;
+    top: 35vh;
+    left: 0;
+  }
+  #root .Contacts_main .container_ .row .header {
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    line-height: 100px;
+    letter-spacing:0.045em;
+}
+#root .Contacts_main .container2 {
+    margin-top: 0;
+}
+#root .Contacts_main .container2 .row .col-lg-4 form {
+   /*  position: absolute;
+    top: 120vh;
+    z-index: 100;
+   background-color: white; 
+   padding-inline: 40px;
+   padding-block: 30px;
+   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1); */
+   display: none;
+}
+#root .Contacts_main .container2 .row .col-lg-7 .row.mt-5 {
+    height: auto;
+    margin-bottom: 300px;
+}
+#root .Contacts_main .container___{
+    margin-top: 200px;
+    margin-bottom: -200px;
+}
+#root .Contacts_main .container2 .row .col-lg-7 span, #root .Contacts_main .container2 .row .col-lg-7 div {
+    font-size: 35px;
+    font-weight: 600;
+}
+  .Advantages .advantages .container .row .col-lg-6 span {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .Advantages 
+  .Team .container_ {
+    margin-top: -50px;
+  }
+  .Team .container_ .row .col-lg-6 span {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .Home .container_ {
+    position: absolute;
+    width: 85% !important;
+    top: 40vh;
+    left: 20px;
+  }
+  .Home .container_ .row .header {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .Home .container_ .row .btn1 {
+    padding: 15px 30px;
+    background-color: #fab448;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }
+  .Home .container_ .row .btn2 {
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fab448;
+  }
+  .About {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    position: relative;
+    z-index: 99;
+}
+  .About .container__ .row .col-lg-5 .header_ {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .About .container svg {
+    display: none;
+  }
+  .About .container .row .col-lg-6 .row .col-lg-4 {
+    width: 30%;
+    margin-inline: 0;
+    height: 200px;
+    border: 1px solid black;
+    padding: 30px;
+  }
+  .About .container .row .col-lg-6 .row .col-lg-4 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .About .container .row .col-lg-6 .row .col-lg-4 h1 {
+    font-size: 25px;
+  }
+  .img-container .row .col_.col-lg-6 .col2 {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    padding-inline: 35px;
+  }
+  .img-container .row .col_.col-lg-6:hover .col2 {
+    position: absolute;
+    top: 10px;
+    color: white;
+    padding-inline: 35px;
+  }
+  .img-container .row .col_.col-lg-6 .row .col-lg-8 .col2 {
+    margin: 0;
+  }
+  .img-container .row .col_.col-lg-6 .row .col-lg-8 .col2 p {
+    width: 100%;
+  }
+  .Team .container_ .row .col-lg-6 span {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .Projects__.container .row .col-lg-6 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .Company_news__.container .row .col-lg-6 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .Contact .container_ .row .col-lg-5 {
+    font-size: 40px;
+    font-weight: 600;
+}
+  .Contact .container .row .col-lg-5 .row.mt-5 .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Contact .container .row .col-lg-5 .row .col-lg-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .About_main .containerBg {
+    background-position: center right;
+    background-image: url("../public/bg-main.jpg");
+    width: 100%;
+    height: 100vh;
+  }
+  .About_main .container_ .row .para p {
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 40px;
+  }
+
+  #root .About_main .containerBg .container_ .row .col-lg-5.header span 
+  {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-left: 0;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About_main .containerBg .container_ {
+    position: absolute;
+    width: 90%;
+    top: 35vh;
+    left: 0px;
+  }
+  .About_main .container_ .row .btn1 {
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(36, 95%, 63%);
+    color: white;
+    border: none;
+    margin-right: 10px;
+    transition: all 0.5s;
+  }
+  .About_main .container2 .row .col-lg-6 svg {
+    display: none;
+  }
+  .About_main .container2 .row .col-lg-5 img {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container3 .row .col-lg-5 img {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container3 .row .col-lg-6 p {
+    font-size: 15px;
+  }
+  .About_main .container4 .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Navbar .icon_phone {
+    background-color: #fab448;
+    position: fixed;
+    padding: 5px;
+    top: 85vh;
+    left: 85vw;
+    z-index: 100;
+  }
+  #root .Contacts_main .containerBackG {
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #root .Contacts_main .containerBackG .container_ {
+    position: absolute;
+    top: 35vh;
+    left: 0;
+  }
+  #root .Contacts_main .container_ .row .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: white;
+    line-height: 100px;
+    letter-spacing:0.045em;
+}
+    #root .Contacts_main .container2 .row .col-lg-4 form {
+    display: none;
+}
+    #root .Contacts_main .container2 {
+    margin-top: -50px;
+}
+    #root .Contacts_main .container___{
+    margin-top: 200px;
+    margin-bottom: -50px;
+}
+  .Advantages .advantages .container .row .col-lg-6 span {
+    font-size: 40px;
+    font-weight: 600;
+}
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  .Home .container_ {
+    position: absolute;
+    width: 85%;
+    top: 42vh;
+    left: 45px;
+  }
+  .Home .container_ .row .header {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About .container svg {
+    display: none;
+  }
+  .About .container .row .header.col-lg-5 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .Contact .container .row .col-lg-5 .row.mt-5 .col-md-4 {
+    text-align: center;
+  }
+  .About_main .containerBg .container_ {
+    position: absolute;
+    width: 90%;
+    top: 30vh;
+    left: 0px;
+  }
+  .About_main .containerBg .container_ .row .col-lg-5.header {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-left: 0;
+    color: white;
+    line-height: 50px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About_main .container2 .row .col-lg-6 svg {
+    display: none;
+  }
+  .About_main .container2 .row .col-lg-5 img {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container3 .row .col-lg-5 img {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container3 .row .col-lg-6 p {
+    font-size: 15px;
+  }
+  .About_main .container4 .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #root .Contacts_main .containerBackG {
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #root .Contacts_main .containerBackG .container_ {
+    position: absolute;
+    top: 35vh;
+    left: 0;
+  }
+  #root .Contacts_main .container_ .row .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: white;
+    line-height: 100px;
+    letter-spacing:0.045em;
+}
+    #root .Contacts_main .container2 .row .col-lg-4 form {
+    display: none;
+}
+    #root .Contacts_main .container2 {
+    margin-top: -50px;
+}
+    #root .Contacts_main .container___{
+    margin-top: 200px;
+    margin-bottom: -50px;
+}
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .Home .container_ {
+    position: absolute;
+    width: 60%;
+    top: 40vh;
+    left: 55px;
+  }
+  .Home .container_ .row .header {
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+    line-height: 75px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About .container .row .header.col-lg-5 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About_main .container2 .row .col-lg-5 img {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .containerBg .container_ {
+    position: absolute;
+    width: 90%;
+    top: 30vh;
+    left: 0px;
+  }
+  .About_main .containerBg .container_ .row .col-lg-5.header {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-left: 0;
+    color: white;
+    line-height: 60px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About_main .container3 .row .col-lg-5 img {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container4 .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .About_main .container4 .cards {
+    height: 250px;
+    width: 500px;
+    border: 1px solid grey;
+    margin: 15px;
+  }
+  .About_main .container2 .row .col-lg-6 svg {
+    display: none;
+  }
+  #root .Contacts_main .container2 .row .col-lg-4 form {
+    display: none;
+}
+#root .Contacts_main .container2 {
+    margin-top: -50px;
+}
+}
+
+@media (min-width: 992px) {
+  /* >992px */
+  .Home .container_ {
+    position: absolute;
+    top: 30vh;
+    left: 35px;
+  }
+  .Home .container_ .row .header.col-lg-5 {
+    font-size: 5.45rem;
+    font-weight: 600;
+    color: white;
+    line-height: 100px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+
+  .About .container .row .header {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About_main .containerBg .container_ {
+    position: absolute;
+    width: 100vw;
+    top: 20vh;
+    left: 50px;
+  }
+  .About_main .containerBg .container_ .row .col-lg-5.header {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-left: 0;
+    color: white;
+    line-height: 70px;
+    letter-spacing: 0.045em;
+    margin-bottom: 20px;
+  }
+  .About_main .container2 .row .col-lg-5 img {
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container3 .row .col-lg-5 img {
+    width: 47vw;
+    height: 400px;
+    margin-top: 30px;
+    object-fit: cover;
+    background-position: center center;
+  }
+  .About_main .container4 .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contact .container_ {
+    margin-top: -45px;
+    padding-top: 40px;
+  }
+  /* .Contacts_main .containerBackG {
+    background-position: center;
+    background-image: url("../public/bg-main.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  #root .Contacts_main .containerBackG {
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #root .Contacts_main .containerBackG .container_ {
+    position: absolute;
+    top: 35vh;
+    left: 30px;
+  }
+  #root .Contacts_main .container_ .row .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: white;
+    line-height: 100px;
+    letter-spacing:0.045em;
+}
+#root .Contacts_main .container2 {
+    margin-top: 30px;
+}
+#root .Contacts_main .container___{
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+}

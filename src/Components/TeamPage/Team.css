@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Team {
+    width: 100%;
+    margin-top: 50px;
+    background-image: url("../public/advantages.png");
+}
+.Team .container_ .row {
+    margin-block: 50px;
+}
+.Team .container_ .row .col-lg-6 span {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.slider div {
+    height: auto;
+}
+.slider div img {
+    margin-bottom: 15px;
+}
+.Team {
+    padding: 20px;
+}
+
+.slider-container {
+    margin: 0 auto;
+}
+
+.slider .slick-slide {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.header {
+    text-align: left;
+}
+
+h5 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 14px;
+}

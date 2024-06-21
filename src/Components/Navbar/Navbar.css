@@ -1,0 +1,77 @@
+.Navbar .navbar_{
+    height: 80px;
+    width: 100vw;
+    z-index: 999;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+}
+.projects{
+    background-color: hsl(36, 95%, 63%);
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+}
+.news_{
+    background-color: hsl(36, 95%, 63%);
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+}
+.Navbar .navbar_.navbar_Bg {
+    background-color: hsl(36, 95%, 63%);
+}
+.Navbar .collapse .a1 {
+    text-decoration: none;
+    color: white;
+    padding-inline: 15px;
+}
+.Navbar .collapse .a2 {
+    padding-inline: 10px;
+    color: white;
+    text-decoration: none;
+}
+.Navbar .collapse .selected {
+    color: #FAB448;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.Navbar .collapse.navbar-collapse.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAB448;
+   
+}
+.Navbar .collapse .selected.select {
+    color: black;
+}
+/* #root .Navbar .navbar-nav #language_select#lng option {
+    border: none;
+    background-color: transparent;
+    outline: none;
+} */
+
+.Navbar .collapse .a3 {
+    padding-inline: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.Navbar .icon_phone {
+    background-color: #FAB448;
+    position: fixed;
+    padding: 5px;
+    top: 85vh;
+    left: 90vw;
+    z-index: 998;
+}

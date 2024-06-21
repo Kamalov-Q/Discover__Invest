@@ -1,0 +1,62 @@
+.About {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    position: relative;
+    z-index: 99;
+}
+.About .container svg {
+    position: absolute;
+    z-index: 0;
+}
+.About .container .row .col-lg-5 p {
+    font-size: 17px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: hsl(0, 0%, 30%);
+    font-weight: 400;
+}
+.About .container .row .col-lg-6 .row .col-lg-4{
+    width: 33%;
+    height: 200px;
+    border: 1px solid black;
+    padding: 30px;
+}
+.About .container .row .col-lg-6 .row .col4:hover {
+    background-image: url("../src/assets/about-pic.jpg");
+    background-size: cover;
+    background-position: center;   
+    color: white;
+}
+.About .container .row .col-lg-6 .row .col4_ {
+    background-color: #FAB448;
+}
+.About .container .row .col-lg-6 .row .col4_ h1 {
+    background-color: #FAB448;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About .container .row .col-lg-6 .row .col4_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About .container .row .col-lg-6 .row span {
+    margin-inline: 10px;
+    margin-block: 10px;
+}
+.About .container .row .col-lg-6 .row h1{
+    font-size: 40px;
+    margin-inline: 10px;
+    margin-block: 10px;
+    font-weight: bold;
+}
+
+.About .container .row .col-lg-6 .row .col4:hover h1 {
+    color: #FAB448;
+}
+

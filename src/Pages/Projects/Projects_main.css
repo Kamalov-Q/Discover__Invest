@@ -1,0 +1,18 @@
+.Projects_main {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    
+}
+.Projects_main ._main {
+    background-color: #F9F9F9;
+    height: 250px;
+    width: 100%;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.Projects_main ._main .container .row .col-lg-6 h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
