@@ -25,7 +25,7 @@ export default function Home() {
             <Link to="/projects" className="btn1 btn">
               {t("Navbar.Projects")}
             </Link>
-            <Link to="/contacts" className="btn2 btn">
+            <Link to="/about" className="btn2 btn">
               {t("Navbar.Contacts")}
             </Link>
           </div>
