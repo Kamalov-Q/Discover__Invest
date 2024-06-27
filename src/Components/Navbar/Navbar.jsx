@@ -5,14 +5,14 @@ import "./Navbar.css";
 import { Link, useLocation } from "react-router-dom";
 import { Button, Modal, Typography } from "antd";
 import axios from "axios";
-import brand from '../../../public/Vector.png'
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import brand from "../../../public/Vector.png";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useTranslation } from "react-i18next";
 import { t } from "i18next";
 
-export default function Navbar( {handleChange, languages} ) {
-/*   const {t, i18n} = useTranslation();
+export default function Navbar({ handleChange, languages }) {
+  /*   const {t, i18n} = useTranslation();
   const languages = localStorage.getItem('i18nextLng');
   const handleChange = (event) => {
     const selectedLanguage = event.target.value;
@@ -44,7 +44,7 @@ export default function Navbar( {handleChange, languages} ) {
   const sendYourMessage = (event) => {
     event.preventDefault();
     const token = "7230993801:AAFeElsynFsL_6QIuc9P5-d0t9zM1Lw2DpE";
-    const chatID =  -1002216421384;
+    const chatID = -1002216421384;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("your_name").value;
     const phone = document.getElementById("your_number").value;
@@ -53,28 +53,35 @@ export default function Navbar( {handleChange, languages} ) {
     const messageContent = `Ismi: ${name} \nTel. raqami: ${phone} \nDepartment : ${department} \nTime: ${time}`;
     axios({
       url: url,
-      method: 'POST',
+      method: "POST",
       data: {
-        "chat_id" : chatID,
-        "text": messageContent,
-      }
+        chat_id: chatID,
+        text: messageContent,
+      },
     })
-    .then(res => {
-      setIsModalOpen(false);
-      toast.success("Muvaffaqiyatli yuborildi");
-      document.getElementById("myForm").reset();
-      }).catch(err => console.error(err)).finally(() => {
-        setLoading(false)
+      .then((res) => {
+        setIsModalOpen(false);
+        toast.success("Muvaffaqiyatli yuborildi");
+        document.getElementById("myForm").reset();
+      })
+      .catch((err) => console.error(err))
+      .finally(() => {
+        setLoading(false);
       });
-    }
+  };
 
-
-    const x = useLocation().pathname;
-    /* console.log(x?.includes("projects")) */
-    console.log(x?.includes("news"));
+  const x = useLocation().pathname;
+  /* console.log(x?.includes("projects")) */
+  /*  console.log(x?.includes("news")); */
   return (
     <div className="Navbar">
-      <div className={(x?.includes("projects") || x?.includes("news") ||color)  ? ("projects" || "navbar_ navbar_Bg") : "navbar_" }>
+      <div
+        className={
+          x?.includes("projects") || x?.includes("news") || color
+            ? "projects" || "navbar_ navbar_Bg"
+            : "navbar_"
+        }
+      >
         <nav className="navbar navbar-expand-lg text-light">
           <div className="container-lg">
             <Link className="navbar-brand" to="/">
@@ -103,7 +110,7 @@ export default function Navbar( {handleChange, languages} ) {
             </button>
             <div
               className="collapse navbar-collapse"
-              id="navbarSupportedContent" 
+              id="navbarSupportedContent"
             >
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-dark">
                 <li className="nav-item">
@@ -118,17 +125,17 @@ export default function Navbar( {handleChange, languages} ) {
                 </li>
                 <li className="nav-item">
                   <Link to="https://hr.di.uz/" className="a1">
-                  {t("Navbar.Career")}
+                    {t("Navbar.Career")}
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/news" className="a1">
-                  {t("Navbar.News")}
+                    {t("Navbar.News")}
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/contacts" className="a1">
-                  {t("Navbar.Contacts")}
+                    {t("Navbar.Contacts")}
                   </Link>
                 </li>
               </ul>
@@ -156,16 +163,19 @@ export default function Navbar( {handleChange, languages} ) {
                 </li>
               </ul>
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-                <select name="Lng" 
+                <select
+                  name="Lng"
                   id="language_select lng"
                   onChange={handleChange}
                   value={languages}
-                  style={{border: "none", backgroundColor:"transparent", outline:"none"}}
+                  style={{
+                    border: "none",
+                    backgroundColor: "transparent",
+                    outline: "none",
+                  }}
                   /* className={color ? "selected select" : "selected"} */
                 >
-                  <option value="en">
-                    EN
-                  </option>
+                  <option value="en">EN</option>
                   <option value="uz">UZ</option>
                   <option value="ru">RU</option>
                 </select>
@@ -224,16 +234,15 @@ export default function Navbar( {handleChange, languages} ) {
             onCancel={handleCancel}
           >
             <Typography>
-              <p className="my-4">
-                {t("Navbar.p")}
-              </p>
+              <p className="my-4">{t("Navbar.p")}</p>
             </Typography>
             <form className="form" onSubmit={sendYourMessage}>
               <input
-                type="text" id="your_name"
+                type="text"
+                id="your_name"
                 className="form-control mb-3"
                 style={{ height: "50px" }}
-                placeholder="Your Name" 
+                placeholder="Your Name"
                 required
               />
               <input
@@ -248,24 +257,33 @@ export default function Navbar( {handleChange, languages} ) {
                 name="selected"
                 className="select form-select my-4"
                 style={{ height: "50px" }}
-                id="your_selected" 
+                id="your_selected"
                 required
               >
                 <option value="Department">{t("Navbar.select.op1")}</option>
-                <option value="Sales Department">{t("Navbar.select.op2")}</option>
+                <option value="Sales Department">
+                  {t("Navbar.select.op2")}
+                </option>
                 <option value="Human Resources Department">
-                {t("Navbar.select.op3")}
+                  {t("Navbar.select.op3")}
                 </option>
                 <option value="Financial Department">
-                {t("Navbar.select.op4")}
+                  {t("Navbar.select.op4")}
                 </option>
                 <option value="Accounting">{t("Navbar.select.op5")}</option>
                 <option value="Purchasing Department">
-                {t("Navbar.select.op6")}
+                  {t("Navbar.select.op6")}
                 </option>
                 <option value="Office">{t("Navbar.select.op7")}</option>
               </select>
-              <button className="btn w-100 mb-4" style={{background:"#FAB448", color: "white"}} type="submit" loading={loading}>{loading? "Sending" : "Send"}</button>
+              <button
+                className="btn w-100 mb-4"
+                style={{ background: "#FAB448", color: "white" }}
+                type="submit"
+                loading={loading}
+              >
+                {loading ? "Sending" : "Send"}
+              </button>
               <p className="form-text w-100 text-center">{t("Navbar.info")}</p>
             </form>
           </Modal>

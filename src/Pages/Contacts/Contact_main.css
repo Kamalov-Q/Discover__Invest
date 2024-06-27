@@ -1,104 +1,106 @@
-.Contacts_main .containerBackG .container_{
-    width: 100%;
-    height: auto;
+.Contacts_main .containerBackG .container_ {
+  width: 100%;
+  height: auto;
 }
 .Contacts_main .containerBackG {
-    background-position: center;
-    background-image: url("../public/bg-main.jpg");
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-image: url("../public/bg-main.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .Contacts_main .containerBackG .container_ {
-    position: absolute;
-    top: 35vh;
-    left: 6vw;
+  position: absolute;
+  top: 35vh;
+  left: 6vw;
 }
 .Contacts_main .container_ .row .header {
-    font-size: 5.45rem;
-    font-weight: 500;
-    color: white;
-    line-height: 100px;
-    letter-spacing:0.045em;
-    margin-bottom: 20px;
+  font-size: 5.45rem;
+  font-weight: 500;
+  color: white;
+  line-height: 100px;
+  letter-spacing: 0.045em;
+  margin-bottom: 20px;
 }
-.Contacts_main .container_ .row .para p{
-    font-size: 1.3rem;
-    color: white;
-    margin-bottom: 40px;
+.Contacts_main .container_ .row .para p {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 40px;
 }
-.Contacts_main .containerBackG .container_ .row:nth-of-type(3) .col-lg-5 svg{
-    border: 2px solid #FAB448;
-    padding: 10px;
+.Contacts_main .containerBackG .container_ .row:nth-of-type(3) .col-lg-5 svg {
+  border: 2px solid #fab448;
+  padding: 10px;
 }
-.Contacts_main .containerBackG .container_ .row:nth-of-type(3) .col-lg-5 svg{
-    border: 2px solid #FAB448;
-    padding: 10px;
-    cursor: pointer;
+.Contacts_main .containerBackG .container_ .row:nth-of-type(3) .col-lg-5 svg {
+  border: 2px solid #fab448;
+  padding: 10px;
+  cursor: pointer;
 }
-.Contacts_main .container2{
-    width: 100%;
-    height: 100vh;
-    margin-top: 100px;
-    background-image: url('../public/bg-news.svg');
-    background-position: center center;
+.Contacts_main .container2 {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  background-image: url("../public/bg-news.svg");
+  background-position: center center;
 }
 .Contacts_main .container2 .row .col-lg-7 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
-.Contacts_main .container2 .row .col-lg-7 span, .Contacts_main .container2 .row .col-lg-7 div {
-    font-size: 50px;
-    font-weight: 600;
+.Contacts_main .container2 .row .col-lg-7 span,
+.Contacts_main .container2 .row .col-lg-7 div {
+  font-size: 50px;
+  font-weight: 600;
 }
-.Contacts_main .container2 .row .col-lg-7 p{
-    margin-top: 30px;
-    font-size: 20px;
+.Contacts_main .container2 .row .col-lg-7 p {
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 .Contacts_main .container2 .row .col-lg-4 form {
-    position: relative;
-    bottom: 50vh;
-   background-color: white; 
-   padding-inline: 40px;
-   padding-block: 30px;
-   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 50vh;
+  background-color: white;
+  padding-inline: 40px;
+  padding-block: 30px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
 }
 
-.Contacts_main .container2 .row .col-lg-4 form input,  .Contacts_main .container2 .row .col-lg-4 form select{
-    height: 50px;
-    background-color: #F4F4F4;
-    border: none;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-size: 14px;
-    color: #6c757d;
+.Contacts_main .container2 .row .col-lg-4 form input,
+.Contacts_main .container2 .row .col-lg-4 form select {
+  height: 50px;
+  background-color: #f4f4f4;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #6c757d;
 }
 .Contacts_main .container2 .row .col-lg-4 form textarea {
-    height: 80px;
-    background-color: #F4F4F4;
-    border: none;
-    margin-top: 5px;
-    margin-bottom: 15px;
+  height: 80px;
+  background-color: #f4f4f4;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
-.Contacts_main .container2 .row .col-lg-4 form div.btn_ button{
-    background-color: #FAB448;
-    color: white;
-    border: none;
-    padding-inline: 30px;
-    padding-block: 15px;
-    margin-block: 10px;
+.Contacts_main .container2 .row .col-lg-4 form div.btn_ button {
+  background-color: #fab448;
+  color: white;
+  border: none;
+  padding-inline: 30px;
+  padding-block: 15px;
+  margin-block: 10px;
 }
 .Contacts_main .container2 .row .col-lg-4 form div.btn_ {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 .Contacts_main .container2 .row .col-lg-4 form textarea::placeholder {
-    display: flex;
-    align-items: center;
-    font-size: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
 }
-.Contacts_main .container2 .row .col-lg-4 form input::placeholder, 
+.Contacts_main .container2 .row .col-lg-4 form input::placeholder,
 .Contacts_main .container2 .row .col-lg-4 form select option {
-    font-size: 12px;
+  font-size: 12px;
 }

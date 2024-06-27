@@ -31,7 +31,7 @@
   .About .container svg {
     display: none;
   }
-  .About .container .row .header.col-lg-5 span{
+  .About .container .row .header.col-lg-5 span {
     font-size: 2rem;
     font-weight: 500;
     line-height: 40px;
@@ -147,7 +147,7 @@
     left: 80vw;
     z-index: 100;
   }
-  
+
   #root .Contacts_main .containerBackG {
     background-position: right;
     width: 100%;
@@ -166,39 +166,39 @@
     font-weight: 500;
     color: white;
     line-height: 100px;
-    letter-spacing:0.045em;
-}
-#root .Contacts_main .container2 {
+    letter-spacing: 0.045em;
+  }
+  #root .Contacts_main .container2 {
     margin-top: 0;
-}
-#root .Contacts_main .container2 .row .col-lg-4 form {
-   /*  position: absolute;
+  }
+  #root .Contacts_main .container2 .row .col-lg-4 form {
+    /*  position: absolute;
     top: 120vh;
     z-index: 100;
    background-color: white; 
    padding-inline: 40px;
    padding-block: 30px;
    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1); */
-   display: none;
-}
-#root .Contacts_main .container2 .row .col-lg-7 .row.mt-5 {
+    display: none;
+  }
+  #root .Contacts_main .container2 .row .col-lg-7 .row.mt-5 {
     height: auto;
     margin-bottom: 300px;
-}
-#root .Contacts_main .container___{
+  }
+  #root .Contacts_main .container___ {
     margin-top: 200px;
     margin-bottom: -200px;
-}
-#root .Contacts_main .container2 .row .col-lg-7 span, #root .Contacts_main .container2 .row .col-lg-7 div {
+  }
+  #root .Contacts_main .container2 .row .col-lg-7 span,
+  #root .Contacts_main .container2 .row .col-lg-7 div {
     font-size: 35px;
     font-weight: 600;
-}
+  }
   .Advantages .advantages .container .row .col-lg-6 span {
     font-size: 2.5rem;
     font-weight: 600;
   }
-  .Advantages 
-  .Team .container_ {
+  .Advantages .Team .container_ {
     margin-top: -50px;
   }
   .Team .container_ .row .col-lg-6 span {
@@ -241,7 +241,7 @@
     margin-top: 40px;
     position: relative;
     z-index: 99;
-}
+  }
   .About .container__ .row .col-lg-5 .header_ {
     font-size: 40px;
     font-weight: 600;
@@ -299,7 +299,7 @@
   .Contact .container_ .row .col-lg-5 {
     font-size: 40px;
     font-weight: 600;
-}
+  }
   .Contact .container .row .col-lg-5 .row.mt-5 .col-md-4 {
     display: flex;
     justify-content: center;
@@ -325,8 +325,7 @@
     margin-bottom: 40px;
   }
 
-  #root .About_main .containerBg .container_ .row .col-lg-5.header span 
-  {
+  #root .About_main .containerBg .container_ .row .col-lg-5.header span {
     font-size: 3.5rem;
     font-weight: 500;
     margin-left: 0;
@@ -400,22 +399,22 @@
     font-weight: 500;
     color: white;
     line-height: 100px;
-    letter-spacing:0.045em;
-}
-    #root .Contacts_main .container2 .row .col-lg-4 form {
+    letter-spacing: 0.045em;
+  }
+  #root .Contacts_main .container2 .row .col-lg-4 form {
     display: none;
-}
-    #root .Contacts_main .container2 {
+  }
+  #root .Contacts_main .container2 {
     margin-top: -50px;
-}
-    #root .Contacts_main .container___{
+  }
+  #root .Contacts_main .container___ {
     margin-top: 200px;
     margin-bottom: -50px;
-}
+  }
   .Advantages .advantages .container .row .col-lg-6 span {
     font-size: 40px;
     font-weight: 600;
-}
+  }
 }
 @media (min-width: 600px) and (max-width: 767px) {
   .Home .container_ {
@@ -503,18 +502,18 @@
     font-weight: 500;
     color: white;
     line-height: 100px;
-    letter-spacing:0.045em;
-}
-    #root .Contacts_main .container2 .row .col-lg-4 form {
+    letter-spacing: 0.045em;
+  }
+  #root .Contacts_main .container2 .row .col-lg-4 form {
     display: none;
-}
-    #root .Contacts_main .container2 {
+  }
+  #root .Contacts_main .container2 {
     margin-top: -50px;
-}
-    #root .Contacts_main .container___{
+  }
+  #root .Contacts_main .container___ {
     margin-top: 200px;
     margin-bottom: -50px;
-}
+  }
 }
 @media (min-width: 767px) and (max-width: 992px) {
   .Home .container_ {
@@ -583,10 +582,10 @@
   }
   #root .Contacts_main .container2 .row .col-lg-4 form {
     display: none;
-}
-#root .Contacts_main .container2 {
+  }
+  #root .Contacts_main .container2 {
     margin-top: -50px;
-}
+  }
 }
 
 @media (min-width: 992px) {
@@ -676,13 +675,13 @@
     font-weight: 500;
     color: white;
     line-height: 100px;
-    letter-spacing:0.045em;
-}
-#root .Contacts_main .container2 {
+    letter-spacing: 0.045em;
+  }
+  #root .Contacts_main .container2 {
     margin-top: 30px;
-}
-#root .Contacts_main .container___{
+  }
+  #root .Contacts_main .container___ {
     margin-top: 50px;
     margin-bottom: -50px;
-}
+  }
 }
