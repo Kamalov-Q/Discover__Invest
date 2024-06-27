@@ -134,7 +134,7 @@ export default function Navbar({ handleChange, languages }) {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/contacts" className="a1">
+                  <Link to="/about" className="a1">
                     {t("Navbar.Contacts")}
                   </Link>
                 </li>
